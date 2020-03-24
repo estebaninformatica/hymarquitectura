@@ -32,7 +32,7 @@
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 	</head>
-	<body class="landing is-preload">
+	<body class="landing is-preload" onload="share_share();">
 	<script type="text/javascript">
 		(function () {
 		var options = {
@@ -203,5 +203,12 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function share_share(){
+					document.querySelector("#eapps-instagram-feed-1 > a").style.display = "none";
+					document.querySelector("#wh-widget-send-button-wrapper-list > a.wh-widget-send-button-get-button").style.display = "none";
+				}
+				setTimeout(function() { share_share();; }, 2000);
+			</script>
 	</body>
 </html>

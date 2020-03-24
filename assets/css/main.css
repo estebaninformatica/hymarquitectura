@@ -3452,7 +3452,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 9990000;
 	}
 
 		#header h1 {
