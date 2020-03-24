@@ -2,6 +2,22 @@
   width: 300px;
   height: auto;
 }
+
+#header h1 a {
+	display: flex;
+}
+
+#header h1 a .logo_transparente{
+	width: 50px;
+	height: auto;
+	margin: 0px;
+}
+#header h1 a .logo_title{
+	position: fixed;
+  margin-left: 40%;
+}
+
+
 .float{
 	position:fixed;
 	width:60px;
@@ -23,5 +39,9 @@
   .logo_transparente {
     width: 140px;
     height: auto;
-  }
+	}
+	.logo_transparente_header {
+		width: 50px;
+		height: auto;
+	}
 }
