@@ -6,6 +6,14 @@
 #header h1 a {
 	display: flex;
 }
+h1, h2 {
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: unset !important;
+}
 
 #header h1 a .logo_transparente{
 	width: 50px;
