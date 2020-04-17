@@ -3445,14 +3445,14 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #194052;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 9990000;
+		z-index: 22222;
 	}
 
 		#header h1 {
